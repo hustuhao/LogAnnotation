@@ -1,40 +1,29 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+#vim
+*.swp
 
-### STS ###
-.apt_generated
+#eclipse
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
 
-### IntelliJ IDEA ###
+#intellij
 .idea
-*.iws
 *.iml
-*.ipr
+*.iws
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+#Mac
+.DS_Store
 
-# folds
-.idea
-target
-out
-log
-logs
-app
-### VS Code ###
-.vsce/
+#Maven
+log/
+logs/
+*.class
+target/
+
+#package
+*.jar
+*.war
+*.ear
+
+#xfTest
+mtgravity-thrift/mtgravity-service-client/src/test/**/XfTest.java
